@@ -4,6 +4,6 @@ qafila_margin:
   outputs:
     dev:
       type: duckdb
-      path: "{{ env_var('QAFILA_DUCKDB', '../warehouse/qafila.duckdb') }}"
+      path: "{{ env_var('DUCKDB_PATH', 'warehouse/qafila.duckdb') }}"
       schema: main
       threads: 4

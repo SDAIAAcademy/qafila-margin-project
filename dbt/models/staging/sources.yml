@@ -9,5 +9,5 @@ sources:
       - name: order_items
       - name: products
       - name: stores
-      - name: supplier_prices
+      - name: supplier_prices_raw
         description: Every row of every suppliers/prices_*.csv file, with the file it came from.
